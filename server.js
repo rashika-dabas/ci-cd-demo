@@ -22,3 +22,9 @@ app.get("/getsum/:a/:b", async (req, res) => {
         ans: sum(parseInt(a), parseInt(b))
     });
 })
+
+app.get("/test", async (req, res) => {
+    res.json({
+        msg: "Test was successful!"
+    });
+})
