@@ -3,7 +3,7 @@
 Steps:
 In terminal,
 * git clone repo-link
-* ci-cd-demo
+* cd ci-cd-demo
 * node -v
 * npm -v
 * npm i express nodemon jest
